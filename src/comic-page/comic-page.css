@@ -5,10 +5,3 @@
   min-height: 400px;
   background-color: blueviolet;
 }
-
-@font-face {
-  font-family: ZagBold;
-  src: url(./fonts/ZagBold.otf) format('opentype');
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
-}

@@ -3,7 +3,7 @@ import "./header.css";
 function Header() {
   return (
     <header className="Header">
-      <h1>Tales From the Ley Line Road</h1>
+      <h1>Tales From the LeyLine Road</h1>
     </header>
   );
 }

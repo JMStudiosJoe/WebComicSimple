@@ -1,12 +1,4 @@
 .Header {
   font-size: 6rem;
-    font-family: 'ZagBold', sans-serif;
-/*  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-*/}
-
-@font-face {
-  font-family: ZagBold;
-  src: url(./fonts/ZagBold.otf) format('opentype');
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
 }
+
