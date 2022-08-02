@@ -1,3 +1,29 @@
 .comic-body {
-  background-color: rgba(255, 100, 100, 0.6);
+  display: grid;
+  grid-template-areas:
+    "page-area page-area"
+    "page-area page-area"
+    "prev-nav-area next-nav-area";
+}
+
+.comic-body .comic-page-container {
+  display: grid;
+  grid-area: page-area;
+  margin-bottom: 1rem;
+  justify-self: center;
+}
+
+.comic-body .comic-page-nav {
+  margin: 1rem;
+  display: grid;
+}
+
+.comic-body .prev-button {
+  display: grid;
+  grid-area: prev-nav-area;
+}
+
+.comic-body .next-button {
+  display: grid;
+  grid-area: next-nav-area;
 }

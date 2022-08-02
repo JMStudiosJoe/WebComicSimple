@@ -58,11 +58,19 @@ function ComicBody() {
     componentPage7,
     componentPage8,
   ];
+  const displayingPage = allPages[pageState.pageNumber];
   return (
     <div className="comic-body">
-      <ComicNavButton handler={previousPage} direction="left"></ComicNavButton>
-      <ComicNavButton handler={nextPage} direction="right"></ComicNavButton>
-      {allPages[pageState.pageNumber]}
+      <section className="comic-page-container">{displayingPage}</section>
+      <section className="comic-page-nav prev-button">
+        <ComicNavButton
+          handler={previousPage}
+          direction="left"
+        ></ComicNavButton>
+      </section>
+      <section className="comic-page-nav next-button">
+        <ComicNavButton handler={nextPage} direction="right"></ComicNavButton>
+      </section>
     </div>
   );
 }
